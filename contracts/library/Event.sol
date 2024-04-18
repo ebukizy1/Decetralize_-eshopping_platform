@@ -2,13 +2,13 @@
 pragma solidity ^0.8.9;
 
 library Event {
-       enum ProductStatus {
-        Available,    // @notice Product is currently in stock and available for purchase.
-        OutofStock,   // @notice Product is currently not available for purchase because it is out of stock.
-        Backordered,  // @notice Product is out of stock, but more inventory is expected to arrive soon.
-        Preorder,     // @notice Product is not yet available for immediate purchase, but customers can place pre-orders for it.
-        OnSale        // @notice Product is currently on sale or available at a discounted price.
-    }
+    //    enum ProductStatus {
+    //     Available,    // @notice Product is currently in stock and available for purchase.
+    //     OutofStock,   // @notice Product is currently not available for purchase because it is out of stock.
+    //     Backordered,  // @notice Product is out of stock, but more inventory is expected to arrive soon.
+    //     Preorder,     // @notice Product is not yet available for immediate purchase, but customers can place pre-orders for it.
+    //     OnSale        // @notice Product is currently on sale or available at a discounted price.
+    // }
 
 
 
