@@ -11,16 +11,6 @@ library Event {
     }
 
 
-// event AddProductSuccessful(address indexed _admin, uint indexed _productId);
-// event AdminAdded(address indexed _admin);
-// event  UpdateProductSuccessful(address indexed sender, uint indexed _productId, uint8 _productStatus);
-// event AddToCartSuccessful(address indexed user, uint indexed productId, uint indexed  quantity);
-// event PurchaseSuccessful(address indexed _buyer, uint indexed total);
-// event ProductRated(address indexed sender,uint indexed _productId,uint indexed _rating);
-//  event ShipmentCreated(address indexed sender, address indexed receiver, uint256 pickupTime, uint256 distance);
-//     event ShipmentInTransit(address indexed sender, address indexed reciver, uint256 pickupTIme);
-//     event ShipmentDelivered(address indexed sender, address indexed receiver, uint256 deliveryTime);
-//     event ShipmentPaid(address indexed sender, address indexed receiver, uint256 amount);
 
     event ProductAdded(uint256 productId, bytes32 productName);
     event ProductUpdated(uint256 productId, uint8 status);

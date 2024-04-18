@@ -1,7 +1,4 @@
-# Document Properties
-
-
-## E-Shopping Application with Delivery Services and Payment System
+# Documentation E-Shopping Application with Delivery Services and Payment System
 
 ## Table of contents
 
@@ -231,7 +228,7 @@ function useContractEvent(contract, eventName, handler) {
 }
 
 
-### <h3 id="">Conclusion </h3>
+### <h3 id="fse">Conclusion </h3>
 
 In conclusion, the E-Shopping Application with Delivery Services and Payment System offers a comprehensive solution for users to engage in decentralized commerce seamlessly. By leveraging blockchain technology and integrating smart contracts, the platform provides a familiar shopping experience while introducing innovative features such as EmaxToken for payments and efficient delivery services.
 

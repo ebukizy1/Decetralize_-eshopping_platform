@@ -18,8 +18,7 @@ contract PaymentProcessing  {
     mapping(address => uint256) public payments;
 
 
-    event PaymentProcessed(address indexed user, uint256 amount);
-    event PurchaseCompleted(address indexed user, uint256 amount);
+
 
     constructor(address _tokenAddress, address userManagementAddress, address productManagementAddress) {
         emaxToken = IERC20(_tokenAddress);
@@ -39,8 +38,8 @@ contract PaymentProcessing  {
 
         payments[_user] += total;
         userManagement.clearCart(_user); // Clear cart after successful payment
-        emit PaymentProcessed(_user, total);
-        emit PurchaseCompleted(_user, total);
+        emit Event.PaymentProcessed(_user, total);
+        emit Event.PurchaseCompleted(_user, total);
     }
 
     /**

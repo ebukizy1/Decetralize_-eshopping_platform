@@ -7,7 +7,7 @@ import {Error} from "../library/Error.sol";
 contract ShipmentManagement {
 
    mapping(address => Shipment[]) public shipments;
-mapping(address => bool) public isAdmin;  // @notice  Mapping to track admin privileges
+   mapping(address => bool) public isAdmin;  // @notice  Mapping to track admin privileges
 
    uint256 public shipmentCount;
    address owner;
