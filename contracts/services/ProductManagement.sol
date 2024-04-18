@@ -1,10 +1,8 @@
 // SPDX-License-Identifier: SEE LICENSE IN LICENSE
 pragma solidity ^0.8.9;
-
-import "@openzeppelin/contracts/access/AccessControl.sol";
 import {Event} from "../library/Event.sol";
 
-contract ProductManagement is AccessControl {
+contract ProductManagement  {
 
 
     Product[] public productList;
@@ -14,7 +12,6 @@ contract ProductManagement is AccessControl {
 
     address owner;
 
-    bytes32 public constant ADMIN_ROLE = keccak256("ADMIN_ROLE");
 
     enum ProductStatus { Available, OutOfStock, Discontinued }
 
